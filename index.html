@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fresher Job Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <ul>
+       <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="external.html">External Features</a></li>
+      </ul>
+    </nav>
+
+    <h1>🚀 Fresher Job Tracker</h1>
+    <p>Track your job applications and daily progress</p>
+  </header>
+
+  <section class="form-section">
+    <h2>📅 Add New Entry</h2>
+    <form id="jobForm">
+      <input type="text" id="title" placeholder="Job Title" required>
+      <input type="text" id="company" placeholder="Company Name" required>
+      <select id="status">
+        <option>Applied</option>
+        <option>Interview Scheduled</option>
+        <option>Rejected</option>
+        <option>Offer Received</option>
+      </select>
+      <textarea id="task" placeholder="Completed Task" required></textarea>
+      <button type="submit">Add Entry</button>
+    </form>
+    <button id="clearAll">🗑 Clear All Entries</button>
+  </section>
+
+  <section class="history">
+    <h2>📜 Past Entries</h2>
+    <div id="entriesContainer"></div>
+  </section>
+
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>📧 Email:<a href=mailto:fresher@123.com> support@fresherjobs.com</a></p>
+    <p>📞 Phone: <a href="+917660884568">+91 98765 43210</a></p>
+  </section>
+
+  <section id="features">
+    <h2>Services</h2>
+    <p>🔗 Integrated with external job portals, daily reminders, and cloud backup features (coming soon!).</p>
+  </section>
+
+<footer class="site-footer">
+  <p>© 2025 Fresher Job Tracker, All rights reserved...</p>
+  <p>
+    <a href="#about">About</a> | 
+    <a href="#contact">Contact Us</a> | 
+    <a href="#features">External Features</a>
+  </p>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>
