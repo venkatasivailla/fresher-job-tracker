@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+
+.ext-header {
+  text-align: center;
+  padding: 25px;
+  background: #c3eaff;
+}
+
+.ext-container {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.feature-card {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.feature-card h2 {
+  color: #0077cc;
+  margin-bottom: 8px;
+}
+
+.feature-card button {
+  background: #0077cc;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.feature-card button:hover { background: #005fa3; }
+
+body.dark {
+  background: #121212;
+  color: #eee;
+}
+body.dark .feature-card { background: #1e1e1e; }
+.ext-footer {
+  background: #0077cc;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
