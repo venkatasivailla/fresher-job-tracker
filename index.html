@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fresher Job Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🚀 Fresher Job Tracker</h1>
+    <p>Track your job applications and daily progress</p>
+  </header>
+
+  <section class="form-section">
+    <h2>📅 Add New Entry</h2>
+    <form id="jobForm">
+      <input type="text" id="title" placeholder="Job Title" required>
+      <input type="text" id="company" placeholder="Company Name" required>
+      <select id="status">
+        <option>Applied</option>
+        <option>Interview Scheduled</option>
+        <option>Rejected</option>
+        <option>Offer Received</option>
+      </select>
+      <textarea id="task" placeholder="Completed Task" required></textarea>
+      <button type="submit">Add Entry</button>
+    </form>
+    <button id="clearAll">🗑️ Clear All Entries</button>
+  </section>
+
+  <section class="history">
+    <h2>📜 Past Entries</h2>
+    <div id="entriesContainer"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
