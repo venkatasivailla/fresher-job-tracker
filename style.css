@@ -124,3 +124,25 @@ button:hover {
   cursor: pointer;
 }
 
+.update-btn{
+  background: navy;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  position:relative;
+  left: 900px
+}
+.delete-btn{
+  background: rgb(225, 36, 36);
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  position: relative;
+  left:950px;
+}
